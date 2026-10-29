@@ -53,6 +53,10 @@ If a task is genuinely unambigious and has no non-tricial assumptions, state tha
 
 ---
 
+## Code Format
+
+Code should be written in a testable format and well tested where possible. Keep code modular by extracting logic into methods and functions that handle singular responsibilities, where possible. Keep code comments short and direct, they should not exceed 1 line (2 lines are the absolute maximum). If more room is needed to explain the code, consider a doc-string. Code should be written in a self-documenting way where the comments are only needed to explain 'why' something is being done if not obvious in the code. The code should clearly document what it is doing by using well written variable names, function and method name, class or structure names, and explicit typing where possible. Not all languages require type declaration but where optional we chose to set types. 
+
 ## Code Comments: Why, Not What
 
 Comments exist to explain **why** code does something, not to restate what it does.
